@@ -25,5 +25,3 @@ def sudokuGenerator():
         board[p//outerSide][p%outerSide] = 0
 
     return board
-
-

@@ -6,7 +6,6 @@ sudoku=sg()
 
 print("Here is the sudoku\n")
 print(np.matrix(sudoku))
-
 #This checks if we can add a number at a position
 def positionChecker(r,c,num):
     global sudoku
@@ -40,4 +39,4 @@ def solving():
                 return
     print(np.matrix(sudoku))
     print("\n")
-    input("Let's see if more solutions")        
+    input("Let's see if more solutions")
